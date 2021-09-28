@@ -1,0 +1,24 @@
+.menu-wrap{
+  display: flex;
+  flex-flow: row nowrap;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  justify-content: space-around;
+  border-top: 1px solid #f0f0f0;
+  padding: 6px 0 0 0;
+  background-color: #f6f6f6;
+  .menu-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    &>:nth-child(1){
+      font-size: 1.4rem;
+    }
+    &>:nth-child(2){
+      font-size: 0.6rem;
+      text-align-last: justify;
+      margin-top: 2px;
+    }
+  }
+}
