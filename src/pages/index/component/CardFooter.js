@@ -1,4 +1,5 @@
 import React from "react";
+import './CardFooter.scss'
 export default class CardFooter extends React.Component {
     constructor(props) {
         super(props);
@@ -6,8 +7,8 @@ export default class CardFooter extends React.Component {
     render() {
         return (
             <div>
-                <div>
-                    
+                <div className={"card-footer"}>
+
                 </div>
             </div>
         )

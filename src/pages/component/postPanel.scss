@@ -1,0 +1,51 @@
+.panel-wrap{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  animation: exist 0.6s;
+  z-index: 100;
+  background-color: white;
+  .header{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 1px solid #f0f0f0;
+    button{
+      background-image: linear-gradient(to right, rgba(255,165,0,1),rgba(255,165,0,0.5));
+      border: none;
+      border-radius: 20px;
+      color: white;
+      padding: 4px 12px;
+    }
+  }
+  .content{
+    width: 100%;
+    height: 100%;
+    .input{
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .footer{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    min-height: 1.8rem;
+    position: fixed;
+    width: 100%;
+    border-top: 1px solid #f0f0f0;
+    bottom: 0;
+  }
+}
+@keyframes exist {
+  from {
+    transform: translate(100%);
+  }
+  to {
+    transform: translate(0);
+  }
+}

@@ -8,7 +8,7 @@ export default class Page extends React.Component {
     render() {
         return (
             <div>
-                <CardBlock></CardBlock>
+                {/*<CardBlock></CardBlock>*/}
             </div>
         )
     }

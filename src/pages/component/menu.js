@@ -12,6 +12,10 @@ export default class Menu extends React.Component {
                     <HomeOutlined />
                     <span>首页</span>
                 </div>
+                <div className="menu-item">
+                    <HomeOutlined />
+                    <span>首页</span>
+                </div>
             </div>
         )
     }
